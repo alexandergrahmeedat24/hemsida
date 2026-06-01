@@ -3,70 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>DayZ Fire Guide</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle, #1a1a1a, #0d0d0d);
-      color: #ddd;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .card {
-      width: 500px;
-      background: rgba(20, 20, 20, 0.9);
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-
-    h1 {
-      margin-top: 0;
-      color: #ff7b00;
-      text-align: center;
-    }
-
-    ul {
-      line-height: 1.6;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .tip {
-      margin-top: 15px;
-      padding: 10px;
-      background: rgba(255,120,0,0.1);
-      border-left: 4px solid #ff7b00;
-      border-radius: 6px;
-    }
-
-    .back-btn {
-      display: block;
-      margin-top: 20px;
-      text-align: center;
-      padding: 10px;
-      background: #333;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.2s;
-    }
-
-    .back-btn:hover {
-      background: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+<div class="container">
+<header>
+    <h1>DayZ Survival Guide</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="vapen.html">Weapons</a></li>
+    <li><a href="mat.html">Food</a></li>
+    <li><a href="bas.html">Base</a></li>
+    <li><a class="active" href="eld.html">Fire</a></li>
+    <li><a href="tips.html">Tips</a></li>
+    <li><a href="kontakt.html">Contact</a></li>
+  </ul>
+</nav>
+<main class="section-card">
   <div class="card">
     <h1>🔥 Fire Guide (DayZ)</h1>
 
@@ -85,7 +41,19 @@
     </div>
 
     <a href="index.html" class="back-btn">⬅ Back to Menu</a>
+    <div class="sources">
+      <h4>Sources</h4>
+      <ul>
+        <li><a href="https://dayz.fandom.com/wiki/Fire">DayZ Wiki — Fire (cooking & warmth)</a></li>
+        <li><a href="https://steamcommunity.com/app/221100/discussions/">Steam Community Guides — Fire and survival</a></li>
+      </ul>
+    </div>
   </div>
-
+    </main>
+</div>
+<footer>
+    <p>© 2026 DayZ Guide</p>
+</footer>
+</div>
 </body>
 </html>

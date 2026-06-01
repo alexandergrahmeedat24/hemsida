@@ -2,39 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DayZ Food UI</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>DayZ Food Guide</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <div class="status-panel">
-    <h3>SURVIVAL</h3>
-
-    <div class="stat">
-      <span class="icon">🍔</span>
-      <div class="info">
-        <span>Food</span>
-        <div class="bar">
-          <div class="fill food"></div>
-        </div>
-      </div>
+<div class="container">
+<header>
+    <h1>DayZ Survival Guide</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vapen.html">Weapons</a></li>
+        <li><a class="active" href="mat.html">Food</a></li>
+        <li><a href="bas.html">Base</a></li>
+        <li><a href="eld.html">Fire</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="kontakt.html">Contact</a></li>
+    </ul>
+</nav>
+<section class="hero">
+    <div class="section-card hero-text">
+        <h2>Food and Hydration</h2>
+        <p>Here is how to find food in DayZ and keep your character alive.</p>
     </div>
-
-    <div class="stat">
-      <span class="icon">💧</span>
-      <div class="info">
-        <span>Water</span>
-        <div class="bar">
-          <div class="fill water"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="quick-buttons">
-    <button class="btn food-btn">🍔</button>
-    <button class="btn water-btn">💧</button>
-  </div>
-
+</section>
+<div class="main-grid">
+    <main class="section-card">
+        <h2>How to find food</h2>
+        <ul>
+            <li>Search farmhouses, fishing villages and hunting cottages for canned food, bread and dairy.</li>
+            <li>Look inside barns, sheds and caravans for fresh vegetables and fruit.</li>
+            <li>Pick berries and mushrooms from bushes and forests, but avoid poisonous ones.</li>
+            <li>Hunt animals like chickens, deer and boar for meat and cook it before eating.</li>
+            <li>Loot supermarkets, gas stations and trailers for snacks, energy bars and water.</li>
+        </ul>
+        <h3>Food locations</h3>
+        <p>Good spots are farms, small villages, coastal areas and remote houses. These places often contain food boxes, fridges, and cooking supplies.</p>
+        <h3>Stay safe while looting</h3>
+        <ul>
+            <li>Move quietly and check for zombies before entering buildings.</li>
+            <li>Keep your backpack light so you can run if needed.</li>
+            <li>Bring a knife or axe for harvesting vegetables and skinning animals.</li>
+        </ul>
+            <div class="sources">
+                <h4>Sources</h4>
+                <ul>
+                    <li><a href="https://dayz.fandom.com/wiki/Food">DayZ Wiki — Food (overview and locations)</a></li>
+                    <li><a href="https://steamcommunity.com/app/221100/discussions/">Steam Community Guides — DayZ</a></li>
+                </ul>
+            </div>
+    </main>
+</div>
+<footer>
+    <p>© 2026 DayZ Guide</p>
+</footer>
+</div>
 </body>
 </html>
